@@ -11,7 +11,7 @@ This is a fun and simple memory game, use this to test your memorization skills!
 *In each round, one new button will be added to the sequence. You must memorize and repeat the sequence correctly to win!*
 
 ### Try it here
-` <insert link here> `
+https://jeffvu-1.github.io/Button-Recall-Challenge
 
 ### License
 This project is licensed under the MIT License

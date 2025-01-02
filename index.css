@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+/* font usage -> font-family: "Sixtyfour", serif; */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8fbc8f;
+    height: 80vh;
+    text-align: center;
+}
+
+h1{
+    font-family: "Sixtyfour", serif;
+    color:rgb(195, 245, 17);
+    margin-top: 150px;
+}
+
+/* --- Buttons START --- */
+.buttonContainer{
+    display: grid;
+    width: auto;
+    height: auto;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    /* Position it center of the page -- I'm lazy so i'm doing it this way*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* global button class */
+.button{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: solid #191516 5px;
+}
+
+/* individual button ids */
+#b1{
+    background-color: #91171F;
+}
+
+#b2{
+    background-color: #FF9914;
+}
+
+#b3{
+    background-color: #241715;
+}
+
+#b4{
+    background-color: #B8E1FF;
+}
+/* --- Buttons END--- */
+
+/* annimation */
+.clicked {
+    opacity: 1;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), black;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-self: center;
+    margin-bottom: 10px;
+    a{
+        font-size: large;
+        text-decoration: none;
+        color:  rgb(195, 245, 17);
+        font-family: "Sixtyfour", serif;
+    }
+}
